@@ -1,5 +1,5 @@
 users = {
-    "firs_name": [],
+    "first_name": [],
     "last_name":[],
     "user_name": []
 }
@@ -20,3 +20,6 @@ class Signup:
 
 
         return (users)
+    def display_users(self):
+        print(users)
+
