@@ -24,8 +24,11 @@ class Signup:
         self.users["last_name"].append(last_name)
         self.users["user_name"].append(user_name)
 
+        print(f"Writing the following data to users.json: {self.users}")  # print data for debugging
+
         with open("users.json", "w") as file:
             json.dump(self.users, file)
 
         return self.users
+
 
