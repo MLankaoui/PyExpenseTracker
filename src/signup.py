@@ -4,7 +4,7 @@ users = {
     "user_name": []
 }
 
-class signup:
+class Signup:
     
     def create_user(self):
         first_name = input("enter your first name: ")
