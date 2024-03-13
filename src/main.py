@@ -1,4 +1,4 @@
-import signup
+from signup import signup
 
 def main():
     welcome()
